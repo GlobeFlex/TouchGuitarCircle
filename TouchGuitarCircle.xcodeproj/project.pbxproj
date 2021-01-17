@@ -13,6 +13,26 @@
 		E4CCFD1325B3C3200017DDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD1225B3C3200017DDA4 /* Assets.xcassets */; };
 		E4CCFD1625B3C3200017DDA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD1525B3C3200017DDA4 /* Preview Assets.xcassets */; };
 		E4CCFD1925B3C3200017DDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD1725B3C3200017DDA4 /* LaunchScreen.storyboard */; };
+		E4CCFD2425B3F39C0017DDA4 /* AbletonMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD2225B3F39C0017DDA4 /* AbletonMetronome.wav */; };
+		E4CCFD2525B3F39C0017DDA4 /* AbletonMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD2325B3F39C0017DDA4 /* AbletonMetronomeUp.wav */; };
+		E4CCFD2925B3F3D00017DDA4 /* CubaseMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD2725B3F3D00017DDA4 /* CubaseMetronome.wav */; };
+		E4CCFD2A25B3F3D00017DDA4 /* CubaseMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD2825B3F3D00017DDA4 /* CubaseMetronomeUp.wav */; };
+		E4CCFD2E25B3F41F0017DDA4 /* FLStudioMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD2C25B3F41F0017DDA4 /* FLStudioMetronome.wav */; };
+		E4CCFD2F25B3F41F0017DDA4 /* FLStudioMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD2D25B3F41F0017DDA4 /* FLStudioMetronomeUp.wav */; };
+		E4CCFD3325B3F4450017DDA4 /* LogicMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD3125B3F4450017DDA4 /* LogicMetronome.wav */; };
+		E4CCFD3425B3F4450017DDA4 /* LogicMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD3225B3F4450017DDA4 /* LogicMetronomeUp.wav */; };
+		E4CCFD3825B3F46D0017DDA4 /* MaschineMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD3625B3F46C0017DDA4 /* MaschineMetronomeUp.wav */; };
+		E4CCFD3925B3F46D0017DDA4 /* MaschineMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD3725B3F46C0017DDA4 /* MaschineMetronome.wav */; };
+		E4CCFD3D25B3F4DD0017DDA4 /* MpcMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD3B25B3F4DD0017DDA4 /* MpcMetronomeUp.wav */; };
+		E4CCFD3E25B3F4DD0017DDA4 /* MpcMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD3C25B3F4DD0017DDA4 /* MpcMetronome.wav */; };
+		E4CCFD4225B3F5100017DDA4 /* ProToolsMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4025B3F5100017DDA4 /* ProToolsMetronome.wav */; };
+		E4CCFD4325B3F5100017DDA4 /* ProToolsMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4125B3F5100017DDA4 /* ProToolsMetronomeUp.wav */; };
+		E4CCFD4725B3F5430017DDA4 /* ProToolsMarimbaMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4525B3F5420017DDA4 /* ProToolsMarimbaMetronomeUp.wav */; };
+		E4CCFD4825B3F5430017DDA4 /* ProToolsMarimbaMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4625B3F5430017DDA4 /* ProToolsMarimbaMetronome.wav */; };
+		E4CCFD4C25B3F57E0017DDA4 /* ReasonMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4A25B3F57E0017DDA4 /* ReasonMetronome.wav */; };
+		E4CCFD4D25B3F57E0017DDA4 /* ReasonMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4B25B3F57E0017DDA4 /* ReasonMetronomeUp.wav */; };
+		E4CCFD5125B3F5A10017DDA4 /* SonarMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4F25B3F5A10017DDA4 /* SonarMetronome.wav */; };
+		E4CCFD5225B3F5A10017DDA4 /* SonarMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD5025B3F5A10017DDA4 /* SonarMetronomeUp.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		E4CCFD1525B3C3200017DDA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4CCFD1825B3C3200017DDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4CCFD1A25B3C3200017DDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CCFD2225B3F39C0017DDA4 /* AbletonMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AbletonMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD2325B3F39C0017DDA4 /* AbletonMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AbletonMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD2725B3F3D00017DDA4 /* CubaseMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CubaseMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD2825B3F3D00017DDA4 /* CubaseMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CubaseMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD2C25B3F41F0017DDA4 /* FLStudioMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FLStudioMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD2D25B3F41F0017DDA4 /* FLStudioMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FLStudioMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD3125B3F4450017DDA4 /* LogicMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LogicMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD3225B3F4450017DDA4 /* LogicMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LogicMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD3625B3F46C0017DDA4 /* MaschineMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MaschineMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD3725B3F46C0017DDA4 /* MaschineMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MaschineMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD3B25B3F4DD0017DDA4 /* MpcMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MpcMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD3C25B3F4DD0017DDA4 /* MpcMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MpcMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD4025B3F5100017DDA4 /* ProToolsMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ProToolsMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD4125B3F5100017DDA4 /* ProToolsMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ProToolsMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD4525B3F5420017DDA4 /* ProToolsMarimbaMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ProToolsMarimbaMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD4625B3F5430017DDA4 /* ProToolsMarimbaMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ProToolsMarimbaMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD4A25B3F57E0017DDA4 /* ReasonMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ReasonMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD4B25B3F57E0017DDA4 /* ReasonMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ReasonMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD4F25B3F5A10017DDA4 /* SonarMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SonarMetronome.wav; sourceTree = "<group>"; };
+		E4CCFD5025B3F5A10017DDA4 /* SonarMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SonarMetronomeUp.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +80,7 @@
 		E4CCFD0025B3C31F0017DDA4 = {
 			isa = PBXGroup;
 			children = (
+				E4CCFD2125B3F1C60017DDA4 /* MetronomeSounds */,
 				E4CCFD0B25B3C31F0017DDA4 /* TouchGuitarCircle */,
 				E4CCFD0A25B3C31F0017DDA4 /* Products */,
 			);
@@ -73,6 +114,33 @@
 				E4CCFD1525B3C3200017DDA4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4CCFD2125B3F1C60017DDA4 /* MetronomeSounds */ = {
+			isa = PBXGroup;
+			children = (
+				E4CCFD2225B3F39C0017DDA4 /* AbletonMetronome.wav */,
+				E4CCFD2325B3F39C0017DDA4 /* AbletonMetronomeUp.wav */,
+				E4CCFD2725B3F3D00017DDA4 /* CubaseMetronome.wav */,
+				E4CCFD2825B3F3D00017DDA4 /* CubaseMetronomeUp.wav */,
+				E4CCFD2C25B3F41F0017DDA4 /* FLStudioMetronome.wav */,
+				E4CCFD2D25B3F41F0017DDA4 /* FLStudioMetronomeUp.wav */,
+				E4CCFD3125B3F4450017DDA4 /* LogicMetronome.wav */,
+				E4CCFD3225B3F4450017DDA4 /* LogicMetronomeUp.wav */,
+				E4CCFD3725B3F46C0017DDA4 /* MaschineMetronome.wav */,
+				E4CCFD3625B3F46C0017DDA4 /* MaschineMetronomeUp.wav */,
+				E4CCFD3C25B3F4DD0017DDA4 /* MpcMetronome.wav */,
+				E4CCFD3B25B3F4DD0017DDA4 /* MpcMetronomeUp.wav */,
+				E4CCFD4625B3F5430017DDA4 /* ProToolsMarimbaMetronome.wav */,
+				E4CCFD4525B3F5420017DDA4 /* ProToolsMarimbaMetronomeUp.wav */,
+				E4CCFD4025B3F5100017DDA4 /* ProToolsMetronome.wav */,
+				E4CCFD4125B3F5100017DDA4 /* ProToolsMetronomeUp.wav */,
+				E4CCFD4A25B3F57E0017DDA4 /* ReasonMetronome.wav */,
+				E4CCFD4B25B3F57E0017DDA4 /* ReasonMetronomeUp.wav */,
+				E4CCFD4F25B3F5A10017DDA4 /* SonarMetronome.wav */,
+				E4CCFD5025B3F5A10017DDA4 /* SonarMetronomeUp.wav */,
+			);
+			path = MetronomeSounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +201,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4CCFD1925B3C3200017DDA4 /* LaunchScreen.storyboard in Resources */,
+				E4CCFD4C25B3F57E0017DDA4 /* ReasonMetronome.wav in Resources */,
+				E4CCFD2E25B3F41F0017DDA4 /* FLStudioMetronome.wav in Resources */,
+				E4CCFD3325B3F4450017DDA4 /* LogicMetronome.wav in Resources */,
+				E4CCFD3D25B3F4DD0017DDA4 /* MpcMetronomeUp.wav in Resources */,
+				E4CCFD4825B3F5430017DDA4 /* ProToolsMarimbaMetronome.wav in Resources */,
+				E4CCFD3425B3F4450017DDA4 /* LogicMetronomeUp.wav in Resources */,
+				E4CCFD5225B3F5A10017DDA4 /* SonarMetronomeUp.wav in Resources */,
+				E4CCFD2525B3F39C0017DDA4 /* AbletonMetronomeUp.wav in Resources */,
+				E4CCFD4325B3F5100017DDA4 /* ProToolsMetronomeUp.wav in Resources */,
+				E4CCFD5125B3F5A10017DDA4 /* SonarMetronome.wav in Resources */,
+				E4CCFD3925B3F46D0017DDA4 /* MaschineMetronome.wav in Resources */,
+				E4CCFD2F25B3F41F0017DDA4 /* FLStudioMetronomeUp.wav in Resources */,
+				E4CCFD3825B3F46D0017DDA4 /* MaschineMetronomeUp.wav in Resources */,
+				E4CCFD4225B3F5100017DDA4 /* ProToolsMetronome.wav in Resources */,
 				E4CCFD1625B3C3200017DDA4 /* Preview Assets.xcassets in Resources */,
 				E4CCFD1325B3C3200017DDA4 /* Assets.xcassets in Resources */,
+				E4CCFD4D25B3F57E0017DDA4 /* ReasonMetronomeUp.wav in Resources */,
+				E4CCFD2925B3F3D00017DDA4 /* CubaseMetronome.wav in Resources */,
+				E4CCFD4725B3F5430017DDA4 /* ProToolsMarimbaMetronomeUp.wav in Resources */,
+				E4CCFD2A25B3F3D00017DDA4 /* CubaseMetronomeUp.wav in Resources */,
+				E4CCFD2425B3F39C0017DDA4 /* AbletonMetronome.wav in Resources */,
+				E4CCFD3E25B3F4DD0017DDA4 /* MpcMetronome.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
