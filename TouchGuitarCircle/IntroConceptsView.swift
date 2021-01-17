@@ -7,12 +7,26 @@
 
 import SwiftUI
 
+let concepts = ["Welcome","TRM", "Practice", "Position","Thumbs", "Metronome", "Dynamics"]
+
 struct IntroConceptsView: View {
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, .white]),
                            startPoint: .topLeading,
                            endPoint: .bottomTrailing)
+            VStack {
+                Text("Touch Guitar Concepts")
+                    .font(.title)
+                    .bold()
+                    .foregroundColor(.black)
+                    .padding(.top, 44)
+                
+                Spacer()
+                Text("Bottom")
+                    .foregroundColor(.black)
+                    .padding(.bottom, 25)
+            }.padding(.horizontal, 8)
         }.edgesIgnoringSafeArea(.all)
     }
 }
