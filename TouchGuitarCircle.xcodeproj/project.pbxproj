@@ -33,6 +33,7 @@
 		E4CCFD4D25B3F57E0017DDA4 /* ReasonMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4B25B3F57E0017DDA4 /* ReasonMetronomeUp.wav */; };
 		E4CCFD5125B3F5A10017DDA4 /* SonarMetronome.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD4F25B3F5A10017DDA4 /* SonarMetronome.wav */; };
 		E4CCFD5225B3F5A10017DDA4 /* SonarMetronomeUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4CCFD5025B3F5A10017DDA4 /* SonarMetronomeUp.wav */; };
+		E4CCFD5625B40A310017DDA4 /* IntroConceptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCFD5525B40A310017DDA4 /* IntroConceptsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		E4CCFD4B25B3F57E0017DDA4 /* ReasonMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ReasonMetronomeUp.wav; sourceTree = "<group>"; };
 		E4CCFD4F25B3F5A10017DDA4 /* SonarMetronome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SonarMetronome.wav; sourceTree = "<group>"; };
 		E4CCFD5025B3F5A10017DDA4 /* SonarMetronomeUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SonarMetronomeUp.wav; sourceTree = "<group>"; };
+		E4CCFD5525B40A310017DDA4 /* IntroConceptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroConceptsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E4CCFD0C25B3C31F0017DDA4 /* AppDelegate.swift */,
 				E4CCFD0E25B3C31F0017DDA4 /* SceneDelegate.swift */,
 				E4CCFD1025B3C31F0017DDA4 /* ContentView.swift */,
+				E4CCFD5525B40A310017DDA4 /* IntroConceptsView.swift */,
 				E4CCFD1225B3C3200017DDA4 /* Assets.xcassets */,
 				E4CCFD1725B3C3200017DDA4 /* LaunchScreen.storyboard */,
 				E4CCFD1A25B3C3200017DDA4 /* Info.plist */,
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CCFD5625B40A310017DDA4 /* IntroConceptsView.swift in Sources */,
 				E4CCFD0D25B3C31F0017DDA4 /* AppDelegate.swift in Sources */,
 				E4CCFD0F25B3C31F0017DDA4 /* SceneDelegate.swift in Sources */,
 				E4CCFD1125B3C31F0017DDA4 /* ContentView.swift in Sources */,
