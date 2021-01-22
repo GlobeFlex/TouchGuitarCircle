@@ -10,8 +10,16 @@ import SwiftUI
 let concepts = ["Welcome","TRM", "Practice", "Position","Thumbs", "Metronome", "Dynamics"]
 
 struct IntroConceptsView: View {
+    func initialize(){
+        UITableView.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundColor = .clear
+        //UITableView.appearance().tableFooterView = UIView()
+    }
+    
     var body: some View {
-        ZStack {
+        
+        
+        return ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, .white]),
                            startPoint: .topLeading,
                            endPoint: .bottomTrailing)
@@ -21,11 +29,15 @@ struct IntroConceptsView: View {
                     .bold()
                     .foregroundColor(.black)
                     .padding(.top, 44)
+               
+                
                 
                 Spacer()
+                
                 Text("Bottom")
                     .foregroundColor(.black)
                     .padding(.bottom, 25)
+                
             }.padding(.horizontal, 8)
         }.edgesIgnoringSafeArea(.all)
     }
