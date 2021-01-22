@@ -32,7 +32,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.35691148313308318" green="0.62565274214567435" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.56721150880000004" green="0.7763186097" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="i8b-Ha-wKw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3d8-y5-TJh"/>
                             <constraint firstItem="i8b-Ha-wKw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="CSD-LC-cJt"/>
@@ -49,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-667" y="372"/>
+            <point key="canvasLocation" x="191" y="-22"/>
         </scene>
     </scenes>
     <resources>
