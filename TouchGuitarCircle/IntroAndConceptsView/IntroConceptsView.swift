@@ -62,6 +62,7 @@ struct IntroConceptsView: View {
                 IntroConceptsListItem(localItem: items[4])
                 IntroConceptsListItem(localItem: items[5])
                 IntroConceptsListItem(localItem: items[6])
+                
                 Spacer()
                 
                 Text("")
@@ -76,6 +77,6 @@ struct IntroConceptsView: View {
 struct IntroConceptsView_Previews: PreviewProvider {
     static var previews: some View {
         IntroConceptsView()
-            .preferredColorScheme(.light)
+            .preferredColorScheme(.dark)
     }
 }

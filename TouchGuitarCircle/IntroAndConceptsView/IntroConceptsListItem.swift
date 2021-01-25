@@ -12,13 +12,13 @@ struct IntroConceptsListItem: View {
     init(localItem: IntroListItem) {
         item = localItem
     }
+    
     var body: some View {
         
         let image: Image = item.imageName != nil ? Image(item.imageName!) : Image(systemName: item.symbolName!)
         let listText: Text = Text(item.titleText)
         
-
-       return VStack {
+        return VStack {
             HStack {
                 image
                     .resizable()
@@ -27,25 +27,23 @@ struct IntroConceptsListItem: View {
                     .padding(.leading, 13)
                     .padding(.top,2)
                     .padding(.bottom, 2)
-                    
                 listText
                     .padding(.trailing,4)
-        
+                    
                     .font(.system(.body))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.leading)
                 Spacer()
-                    
             }
             .padding(.all, 4
             )
             .background(RoundedRectangle(cornerRadius: 25))
-       
-            .foregroundColor(Color.blue)
-       }
-       .padding(.leading, 15)
-       .padding(.trailing, 15)
-       .padding(.bottom, 5)
+            
+            .foregroundColor(Color("listBackground"))
+        }
+        .padding(.leading, 15)
+        .padding(.trailing, 15)
+        .padding(.bottom, 5)
     }
 }
 
