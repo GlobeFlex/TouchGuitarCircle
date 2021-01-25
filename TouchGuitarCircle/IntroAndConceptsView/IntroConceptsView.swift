@@ -20,15 +20,31 @@ let items = [IntroListItem(title: "Welcome to The Touch Guitar Circle",
                            iName: "trm_invers_transparent"),
              IntroListItem(title: "Practice Concepts",
                            detail: "N/A",
-                           sName: "timer",
-                           iName: nil)
+                           sName: nil,
+                           iName: "timer"),
+             IntroListItem(title: "Positioning the Touch Guitar",
+                           detail: "N/A",
+                           sName: nil,
+                           iName: "position"),
+             IntroListItem(title: "Thumbs Up Technique",
+                           detail: "Na",
+                           sName: nil,
+                           iName: "thumbs"),
+             IntroListItem(title: "Using a Metronome",
+                           detail: "NA",
+                           sName: nil,
+                           iName: "metronome"),
+             IntroListItem(title: "Achieving Dynamics",
+                           detail: "N/A",
+                           sName: nil,
+                           iName: "dynamics")
             ]
 
 struct IntroConceptsView: View {
     
     var body: some View {
         return ZStack {
-            LinearGradient(gradient: Gradient(colors: [.blue, Color(.systemGray3)]),
+            LinearGradient(gradient: Gradient(colors: [.blue, Color("gradientBottom")]),
                            startPoint: .topLeading,
                            endPoint: .bottomTrailing)
             VStack {
@@ -38,12 +54,17 @@ struct IntroConceptsView: View {
                     .foregroundColor(.white)
                     .padding(.top, 50)
                     .padding(.bottom, 8)
-               
-                IntroConceptsListItem()
-
+                
+                IntroConceptsListItem(localItem: items[0])
+                IntroConceptsListItem(localItem: items[1])
+                IntroConceptsListItem(localItem: items[2])
+                IntroConceptsListItem(localItem: items[3])
+                IntroConceptsListItem(localItem: items[4])
+                IntroConceptsListItem(localItem: items[5])
+                IntroConceptsListItem(localItem: items[6])
                 Spacer()
                 
-                Text("Bottom")
+                Text("")
                     .foregroundColor(.black)
                     .padding(.bottom, 25)
                 
