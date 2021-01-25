@@ -28,17 +28,19 @@ struct IntroConceptsListItem: View {
                     .padding(.top,2)
                     .padding(.bottom, 2)
                 listText
-                    .padding(.trailing,4)
                     
                     .font(.system(.body))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.leading)
                 Spacer()
+                Image(systemName: "arrowtriangle.right")
+                    .resizable()
+                    .frame(width: 20, height: 20, alignment: .center)
+                    .foregroundColor(.white)
+                    .padding(.trailing,8)
             }
-            .padding(.all, 4
-            )
+            .padding(.all, 4)
             .background(RoundedRectangle(cornerRadius: 25))
-            
             .foregroundColor(Color("listBackground"))
         }
         .padding(.leading, 15)

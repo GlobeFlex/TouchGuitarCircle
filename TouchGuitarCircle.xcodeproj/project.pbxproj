@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4214A3D25BB94FF00BA8BEE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4214A3C25BB94FF00BA8BEE /* Models.swift */; };
+		E47AEE1125BF35F200393972 /* IntroConceptsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AEE1025BF35F200393972 /* IntroConceptsDetailView.swift */; };
 		E4AF16DA25BB625700EC6051 /* IntroConceptsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF16D925BB625700EC6051 /* IntroConceptsListItem.swift */; };
 		E4CCFD0D25B3C31F0017DDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCFD0C25B3C31F0017DDA4 /* AppDelegate.swift */; };
 		E4CCFD0F25B3C31F0017DDA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCFD0E25B3C31F0017DDA4 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		E4214A3C25BB94FF00BA8BEE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E47AEE1025BF35F200393972 /* IntroConceptsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroConceptsDetailView.swift; sourceTree = "<group>"; };
 		E4AF16D925BB625700EC6051 /* IntroConceptsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroConceptsListItem.swift; sourceTree = "<group>"; };
 		E4CCFD0925B3C31F0017DDA4 /* TouchGuitarCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchGuitarCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CCFD0C25B3C31F0017DDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				E4CCFD5525B40A310017DDA4 /* IntroConceptsView.swift */,
 				E4AF16D925BB625700EC6051 /* IntroConceptsListItem.swift */,
+				E47AEE1025BF35F200393972 /* IntroConceptsDetailView.swift */,
 			);
 			path = IntroAndConceptsView;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				E4AF16DA25BB625700EC6051 /* IntroConceptsListItem.swift in Sources */,
 				E4CCFD0D25B3C31F0017DDA4 /* AppDelegate.swift in Sources */,
 				E4CCFD0F25B3C31F0017DDA4 /* SceneDelegate.swift in Sources */,
+				E47AEE1125BF35F200393972 /* IntroConceptsDetailView.swift in Sources */,
 				E4214A3D25BB94FF00BA8BEE /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"TouchGuitarCircle/Preview Content\"";
 				DEVELOPMENT_TEAM = W6999PKSDB;
 				ENABLE_PREVIEWS = YES;
@@ -421,7 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"TouchGuitarCircle/Preview Content\"";
 				DEVELOPMENT_TEAM = W6999PKSDB;
 				ENABLE_PREVIEWS = YES;

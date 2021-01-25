@@ -20,3 +20,8 @@ class IntroListItem {
         self.imageName   = iName
     }
 }
+
+class Model: ObservableObject {
+    @Published var pushed = false
+}
+
