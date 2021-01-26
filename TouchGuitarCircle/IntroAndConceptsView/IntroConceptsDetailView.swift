@@ -18,6 +18,7 @@ struct IntroConceptsDetailView: View {
             LinearGradient(gradient: Gradient(colors: [.blue, Color("gradientBottom")]),
                            startPoint: .topLeading,
                            endPoint: .bottomTrailing)
+            ScrollView{
             VStack {
                 Text(localItem.titleText)
                     .font(.title3)
@@ -30,12 +31,15 @@ struct IntroConceptsDetailView: View {
                     .frame(width: 150, height: 150)
                     .padding(.top,8)
                     .padding(.bottom, 8)
-                Text(localItem.detailText)
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(RoundedRectangle(cornerRadius: 25.0))
-                    .foregroundColor(.blue)
+                
+                    Text(localItem.detailText)
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 25.0))
+                        .foregroundColor(.blue)
+                    
+                }
                 
                 Spacer()
                 
@@ -50,19 +54,19 @@ struct IntroConceptsDetailView: View {
                         .padding(.bottom,15)
                     Spacer()
                 }
-                    
+                
             }.padding()
         }
         .edgesIgnoringSafeArea(.all)
         
-}
+    }
 }
 
 struct IntroConceptsDetailDetailView_Previews: PreviewProvider {
     static var previews: some View {
         IntroConceptsDetailView(item: IntroListItem(title: "Welcome to The Touch Guitar Circle",
-                                                          detail: "Welcome to the Touch Guitar Circle app.  The Touch Guitar Circle is a world wide organization founded by Markus Reuter.  The Circle’s purpose is to teach the practice and playing of the Touch Guitar.  Some people call this method tapping, yet there is far more depth to it, it is not just poking one or two fingers on the fretboard.  We are committed to a program and practice studies using a positive approach.  Markus has thourouhly analyzed the mechanics of playing the touch guitar and has put together an amazing amount of studies and exercises. Our group aims to communicate positively at all times ",
-                                                          sName: nil,
-                                                          iName: "tgc_invers_transparent"))
+                                                    detail: "Welcome to the Touch Guitar Circle app.  The Touch Guitar Circle is a world wide organization founded by Markus Reuter.  The Circle’s purpose is to teach the practice and playing of the Touch Guitar.  Some people call this method tapping, yet there is far more depth to it, it is not just poking one or two fingers on the fretboard.  We are committed to a program and practice studies using a positive approach.  Markus has thourouhly analyzed the mechanics of playing the touch guitar and has put together an amazing amount of studies and exercises. Our group aims to communicate positively at all times ",
+                                                    sName: nil,
+                                                    iName: "tgc_invers_transparent"))
     }
 }

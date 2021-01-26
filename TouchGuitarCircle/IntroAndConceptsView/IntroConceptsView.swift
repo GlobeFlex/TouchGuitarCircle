@@ -67,7 +67,7 @@ struct IntroConceptsView: View {
                 LinearGradient(gradient: Gradient(colors: [.blue, Color("gradientBottom")]),
                                startPoint: .topLeading,
                                endPoint: .bottomTrailing)
-                
+                ScrollView{
                 VStack {
                     Text("Touch Guitar Concepts")
                         .font(.title)
@@ -98,6 +98,7 @@ struct IntroConceptsView: View {
                     }
                     Spacer()
                     
+                }
                 }
             }.ignoresSafeArea(.all)
         })
