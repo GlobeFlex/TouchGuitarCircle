@@ -1,13 +1,13 @@
 //
-//  IntroConceptsListItem.swift
+//  FamilyExercisesListItem.swift
 //  TouchGuitarCircle
 //
-//  Created by Rick Allen on 1/22/21.
+//  Created by Rick Allen on 1/26/21.
 //
 
 import SwiftUI
 
-struct IntroConceptsListItem: View {
+struct FamilyExercisesListItem: View {
     var item: IntroListItem
     init(localItem: IntroListItem) {
         item = localItem
@@ -23,14 +23,15 @@ struct IntroConceptsListItem: View {
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 45, height: 45)
+                    .frame(width: 35, height: 35)
                     .padding(.leading, 13)
-                    .padding(.top,2)
-                    .padding(.bottom, 2)
+                    .padding(.top,6)
+                    .padding(.bottom, 6)
                     .foregroundColor(.white)
                 listText
                     
                     .font(.system(.body))
+                    .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.leading)
                 Spacer()
@@ -38,11 +39,11 @@ struct IntroConceptsListItem: View {
                     .resizable()
                     .frame(width: 20, height: 20, alignment: .center)
                     .foregroundColor(.white)
-                    .padding(.trailing,8)
+                    .padding(.trailing,4)
             }
             .padding(.all, 4)
             .background(RoundedRectangle(cornerRadius: 25))
-            .foregroundColor(Color("listBackground"))
+            .foregroundColor(.purple)
         }
         .padding(.leading, 15)
         .padding(.trailing, 15)
@@ -50,10 +51,8 @@ struct IntroConceptsListItem: View {
     }
 }
 
-struct IntroConceptsListItem_Previews: PreviewProvider {
+struct FamilyExercisesListItem_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            IntroConceptsListItem(localItem: IntroListItem(title: "Welcome to The Touch Guitar Circle", detail: "na", sName: nil, iName: "tgc_invers_transparent"))
-        }
+        FamilyExercisesListItem(localItem: IntroListItem(title: "The Son Exercise", detail: "", sName: "person", iName: nil))
     }
 }

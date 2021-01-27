@@ -52,13 +52,10 @@ struct IntroConceptsView: View {
     
     init() {
         coloredNavAppearance.configureWithTransparentBackground()
-        //coloredNavAppearance.backgroundColor = .systemBlue
         coloredNavAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         coloredNavAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-        
         UINavigationBar.appearance().standardAppearance = coloredNavAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = coloredNavAppearance
-        
     }
     var body: some View {
         
@@ -68,38 +65,37 @@ struct IntroConceptsView: View {
                                startPoint: .topLeading,
                                endPoint: .bottomTrailing)
                 ScrollView{
-                VStack {
-                    Text("Touch Guitar Concepts")
-                        .font(.title)
-                        .bold()
-                        .foregroundColor(.white)
-                        .padding(4)
-                        .padding(.top, 40)
-                    
-                    Image("tgc_invers_transparent")
-                        .resizable()
-                        .frame(width: 100, height: 100, alignment: .center)
-                        .padding(.top, 1)
-                        .padding(.bottom, 10)
-                    NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { IntroConceptsListItem(localItem: introConceptsItems[0])
-                    }.navigationBarBackButtonHidden(false)
-                    
-                    NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[1])) { IntroConceptsListItem(localItem: introConceptsItems[1])
+                    VStack {
+                        Text("Touch Guitar Concepts")
+                            .font(.title)
+                            .bold()
+                            .foregroundColor(.white)
+                            .padding(.top, 20)
+                            
+                        
+                        Image("tgc_invers_transparent")
+                            .resizable()
+                            .frame(width: 100, height: 100, alignment: .center)
+                            .padding(.top, 1)
+                            .padding(.bottom, 10)
+                        NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { IntroConceptsListItem(localItem: introConceptsItems[0])
+                        }
+                        NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[1])) { IntroConceptsListItem(localItem: introConceptsItems[1])
+                        }
+                        NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[2])) { IntroConceptsListItem(localItem: introConceptsItems[2])
+                        }
+                        NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[3])) { IntroConceptsListItem(localItem: introConceptsItems[3])
+                        }
+                        NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[4])) { IntroConceptsListItem(localItem: introConceptsItems[4])
+                        }
+                        NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[5])) { IntroConceptsListItem(localItem: introConceptsItems[5])
+                        }
+                        NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[6])) { IntroConceptsListItem(localItem: introConceptsItems[6])
+                        }
+                        Spacer()
                     }
-                    NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[2])) { IntroConceptsListItem(localItem: introConceptsItems[2])
-                    }
-                    NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[3])) { IntroConceptsListItem(localItem: introConceptsItems[3])
-                    }
-                    NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[4])) { IntroConceptsListItem(localItem: introConceptsItems[4])
-                    }
-                    NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[5])) { IntroConceptsListItem(localItem: introConceptsItems[5])
-                    }
-                    NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[6])) { IntroConceptsListItem(localItem: introConceptsItems[6])
-                    }
-                    Spacer()
-                    
-                }
-                }
+                }.frame(width: 380, height: 618, alignment: .center)
+                .ignoresSafeArea(.all)
             }.ignoresSafeArea(.all)
         })
     }

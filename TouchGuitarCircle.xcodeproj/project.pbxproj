@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		E4214A3D25BB94FF00BA8BEE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4214A3C25BB94FF00BA8BEE /* Models.swift */; };
 		E47AEE1125BF35F200393972 /* IntroConceptsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AEE1025BF35F200393972 /* IntroConceptsDetailView.swift */; };
+		E47AEE1B25C0A04800393972 /* FamilyExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AEE1A25C0A04800393972 /* FamilyExerciseListView.swift */; };
+		E47AEE1E25C0AF4900393972 /* FamilyExercisesListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AEE1D25C0AF4900393972 /* FamilyExercisesListItem.swift */; };
+		E47AEE2125C0D2D700393972 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AEE2025C0D2D700393972 /* TabBar.swift */; };
 		E4AF16DA25BB625700EC6051 /* IntroConceptsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF16D925BB625700EC6051 /* IntroConceptsListItem.swift */; };
 		E4CCFD0D25B3C31F0017DDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCFD0C25B3C31F0017DDA4 /* AppDelegate.swift */; };
 		E4CCFD0F25B3C31F0017DDA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCFD0E25B3C31F0017DDA4 /* SceneDelegate.swift */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		E4214A3C25BB94FF00BA8BEE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		E47AEE1025BF35F200393972 /* IntroConceptsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroConceptsDetailView.swift; sourceTree = "<group>"; };
+		E47AEE1A25C0A04800393972 /* FamilyExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyExerciseListView.swift; sourceTree = "<group>"; };
+		E47AEE1D25C0AF4900393972 /* FamilyExercisesListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyExercisesListItem.swift; sourceTree = "<group>"; };
+		E47AEE2025C0D2D700393972 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		E4AF16D925BB625700EC6051 /* IntroConceptsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroConceptsListItem.swift; sourceTree = "<group>"; };
 		E4CCFD0925B3C31F0017DDA4 /* TouchGuitarCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchGuitarCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CCFD0C25B3C31F0017DDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,9 +92,9 @@
 		E4214A3A25BB94A100BA8BEE /* IntroAndConceptsView */ = {
 			isa = PBXGroup;
 			children = (
-				E4CCFD5525B40A310017DDA4 /* IntroConceptsView.swift */,
-				E4AF16D925BB625700EC6051 /* IntroConceptsListItem.swift */,
 				E47AEE1025BF35F200393972 /* IntroConceptsDetailView.swift */,
+				E4AF16D925BB625700EC6051 /* IntroConceptsListItem.swift */,
+				E4CCFD5525B40A310017DDA4 /* IntroConceptsView.swift */,
 			);
 			path = IntroAndConceptsView;
 			sourceTree = "<group>";
@@ -99,6 +105,15 @@
 				E4214A3C25BB94FF00BA8BEE /* Models.swift */,
 			);
 			path = DataModels;
+			sourceTree = "<group>";
+		};
+		E47AEE1825C0776E00393972 /* TheFamily */ = {
+			isa = PBXGroup;
+			children = (
+				E47AEE1A25C0A04800393972 /* FamilyExerciseListView.swift */,
+				E47AEE1D25C0AF4900393972 /* FamilyExercisesListItem.swift */,
+			);
+			path = TheFamily;
 			sourceTree = "<group>";
 		};
 		E4CCFD0025B3C31F0017DDA4 = {
@@ -121,14 +136,16 @@
 		E4CCFD0B25B3C31F0017DDA4 /* TouchGuitarCircle */ = {
 			isa = PBXGroup;
 			children = (
-				E4214A3B25BB94BF00BA8BEE /* DataModels */,
-				E4214A3A25BB94A100BA8BEE /* IntroAndConceptsView */,
 				E4CCFD0C25B3C31F0017DDA4 /* AppDelegate.swift */,
-				E4CCFD0E25B3C31F0017DDA4 /* SceneDelegate.swift */,
 				E4CCFD1225B3C3200017DDA4 /* Assets.xcassets */,
-				E4CCFD1725B3C3200017DDA4 /* LaunchScreen.storyboard */,
+				E4214A3B25BB94BF00BA8BEE /* DataModels */,
 				E4CCFD1A25B3C3200017DDA4 /* Info.plist */,
+				E4214A3A25BB94A100BA8BEE /* IntroAndConceptsView */,
+				E4CCFD1725B3C3200017DDA4 /* LaunchScreen.storyboard */,
 				E4CCFD1425B3C3200017DDA4 /* Preview Content */,
+				E4CCFD0E25B3C31F0017DDA4 /* SceneDelegate.swift */,
+				E47AEE1825C0776E00393972 /* TheFamily */,
+				E47AEE2025C0D2D700393972 /* TabBar.swift */,
 			);
 			path = TouchGuitarCircle;
 			sourceTree = "<group>";
@@ -258,11 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47AEE2125C0D2D700393972 /* TabBar.swift in Sources */,
+				E47AEE1E25C0AF4900393972 /* FamilyExercisesListItem.swift in Sources */,
 				E4CCFD5625B40A310017DDA4 /* IntroConceptsView.swift in Sources */,
 				E4AF16DA25BB625700EC6051 /* IntroConceptsListItem.swift in Sources */,
 				E4CCFD0D25B3C31F0017DDA4 /* AppDelegate.swift in Sources */,
 				E4CCFD0F25B3C31F0017DDA4 /* SceneDelegate.swift in Sources */,
 				E47AEE1125BF35F200393972 /* IntroConceptsDetailView.swift in Sources */,
+				E47AEE1B25C0A04800393972 /* FamilyExerciseListView.swift in Sources */,
 				E4214A3D25BB94FF00BA8BEE /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,26 +19,26 @@ struct IntroConceptsDetailView: View {
                            startPoint: .topLeading,
                            endPoint: .bottomTrailing)
             ScrollView{
-            VStack {
-                Text(localItem.titleText)
-                    .font(.title3)
-                    .bold()
-                    .foregroundColor(.white)
-                    .padding(.top,40)
-                Image(localItem.imageName!)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 150, height: 150)
-                    .padding(.top,8)
-                    .padding(.bottom, 8)
-                
+                VStack {
+                    Text(localItem.titleText)
+                        .font(.title3)
+                        .bold()
+                        .foregroundColor(.white)
+                        .padding(.top,40)
+                    
+                    Image(localItem.imageName!)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 150, height: 150)
+                        .padding(.top,8)
+                        .padding(.bottom, 8)
+                    
                     Text(localItem.detailText)
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
                         .padding()
                         .background(RoundedRectangle(cornerRadius: 25.0))
                         .foregroundColor(.blue)
-                    
                 }
                 
                 Spacer()
