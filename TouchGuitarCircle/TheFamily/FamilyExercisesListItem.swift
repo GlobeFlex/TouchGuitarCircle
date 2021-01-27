@@ -20,6 +20,7 @@ struct FamilyExercisesListItem: View {
         
         return VStack {
             HStack {
+                //Spacer()
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -45,9 +46,9 @@ struct FamilyExercisesListItem: View {
             .background(RoundedRectangle(cornerRadius: 25))
             .foregroundColor(.purple)
         }
-        .padding(.leading, 15)
-        .padding(.trailing, 15)
-        .padding(.bottom, 5)
+        .padding(.leading, 10)
+        .padding(.trailing, 10)
+        
     }
 }
 

@@ -8,28 +8,32 @@
 import SwiftUI
 struct IntroConceptsDetailView: View {
     var localItem: IntroListItem
+    
+    
     init(item: IntroListItem) {
         localItem = item
+        
     }
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     var body: some View {
-        
+        let image: Image = localItem.imageName != nil ? Image(localItem.imageName!) : Image(systemName: localItem.symbolName!)
         return ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, Color("gradientBottom")]),
                            startPoint: .topLeading,
                            endPoint: .bottomTrailing)
             ScrollView{
                 VStack {
+                    Spacer(minLength: 30)
                     Text(localItem.titleText)
                         .font(.title3)
                         .bold()
                         .foregroundColor(.white)
-                        .padding(.top,40)
                     
-                    Image(localItem.imageName!)
+                    
+                    image
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 150, height: 150)
+                        .frame(width: 100, height: 100)
                         .padding(.top,8)
                         .padding(.bottom, 8)
                     
@@ -41,22 +45,21 @@ struct IntroConceptsDetailView: View {
                         .foregroundColor(.blue)
                 }
                 
-                Spacer()
+                //                HStack {
+                //                    Image(systemName: "arrowtriangle.left")
+                //                        .resizable()
+                //                        .foregroundColor(.white)
+                //                        .frame(width: 20, height: 20, alignment: .leading)
+                //                        .padding(.bottom, 15)
+                //                    Text("Swipe from edge to go back")
+                //                        .foregroundColor(.white)
+                //                        .padding(.bottom,15)
+                //                    Spacer()
+                //               }
                 
-                HStack {
-                    Image(systemName: "arrowtriangle.left")
-                        .resizable()
-                        .foregroundColor(.white)
-                        .frame(width: 20, height: 20, alignment: .leading)
-                        .padding(.bottom, 15)
-                    Text("Swipe from edge to go back")
-                        .foregroundColor(.white)
-                        .padding(.bottom,15)
-                    Spacer()
-                }
-                
-            }.padding()
+            }.frame(width: UIScreen.screenWidth-20, height: UIScreen.screenHeight-105, alignment: .center)
         }
+        
         .edgesIgnoringSafeArea(.all)
         
     }

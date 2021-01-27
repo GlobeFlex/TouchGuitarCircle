@@ -58,13 +58,12 @@ struct FamilyExerciseListView: View {
                                endPoint: .bottomTrailing)
                 ScrollView{
                     VStack {
-                        
+                        Spacer(minLength: 45)
                         VStack {
                             Text("The Family Exercises")
                                 .font(.title)
                                 .bold()
                                 .foregroundColor(.white)
-                                .padding(.top, 20)
                             
                             Image(systemName: "person.3")
                                 .resizable()
@@ -96,7 +95,7 @@ struct FamilyExerciseListView: View {
                         Spacer()
                     }.ignoresSafeArea(.all)
                 }
-                .frame(width: 400, height: 618, alignment: .center)
+                .frame(width: UIScreen.screenWidth-20, height: UIScreen.screenHeight-50, alignment: .center)
                 .ignoresSafeArea(.all)
             }.ignoresSafeArea(.all)
                 

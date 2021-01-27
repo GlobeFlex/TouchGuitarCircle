@@ -20,20 +20,30 @@ struct TabBar: View {
                 Image(systemName: "person.3")
                 Text("The Family")
             }
+            MetronomeView().tabItem {
+                Image(systemName: "metronome")
+                Text("Metronome")
+            }
+            PracticeLog().tabItem {
+                Image(systemName: "book")
+                Text("Practice Log")
+            }
         }.onAppear() {
-        
+            let height: CGFloat = UIScreen.screenHeight
+            print(height)
+            print(height - 55)
         }
-        //.accentColor(.black)
-        //.background(Color(.blue))
-
+        .accentColor(.black)
     }
 }
 
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         TabBar()
+            .preferredColorScheme(.dark)
     }
 }
+
 extension UINavigationController {
     override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
