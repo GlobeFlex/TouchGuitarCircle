@@ -21,7 +21,18 @@ class IntroListItem {
     }
 }
 
-class Model: ObservableObject {
-    @Published var pushed = false
+class FamilyListItem  {
+    var titleText: String
+    var detailText: String
+    var symbolName: String?
+    var imageName: String?
+    var videoName: String?
+    
+    init(title: String, detail: String, sName: String?, iName: String?, vName: String?) {
+        self.titleText   = title
+        self.detailText  = detail
+        self.symbolName  = sName
+        self.imageName   = iName
+        self.videoName   = vName
+    }
 }
-

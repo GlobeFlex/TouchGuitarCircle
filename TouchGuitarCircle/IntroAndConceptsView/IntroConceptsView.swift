@@ -48,7 +48,6 @@ let introConceptsItems = [IntroListItem(title: "Welcome to The Touch Guitar Circ
 
 struct IntroConceptsView: View {
     let coloredNavAppearance = UINavigationBarAppearance()
-    @EnvironmentObject var model: Model
     
     init() {
         coloredNavAppearance.configureWithTransparentBackground()

@@ -8,46 +8,56 @@
 import SwiftUI
 
 struct FamilyExerciseListView: View {
-    var familyListItems: [IntroListItem] = [IntroListItem(title: "Son",
+    var familyListItems: [FamilyListItem] = [FamilyListItem(title: "Son",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Daughter I",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Daughter I",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Daughter II",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Daughter II",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Mother",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Mother",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Father [Ascending]",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Father [Ascending]",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Father [Descending]",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Father [Descending]",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Pentachord Approach",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Pentachord Approach",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Uncle [Ascending]",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Uncle [Ascending]",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Uncle [Descending]",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Uncle [Descending]",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil),
-                                            IntroListItem(title: "Grandfather",
+                                                          iName: nil,
+                                                          vName: nil),
+                                            FamilyListItem(title: "Grandfather",
                                                           detail: "",
                                                           sName: "person",
-                                                          iName: nil)
+                                                          iName: nil,
+                                                          vName: nil)
     ]
     
     var body: some View {
@@ -74,33 +84,35 @@ struct FamilyExerciseListView: View {
                         }
                         
                         VStack {
-                            NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { FamilyExercisesListItem(localItem: familyListItems[0])
+                            NavigationLink(destination: FamilyExercisesDetailView(localItem: familyListItems[0])) { FamilyExercisesListItem(localItem: familyListItems[0])
                             }
-                            NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { FamilyExercisesListItem(localItem: familyListItems[1])
+                            NavigationLink(destination: FamilyExercisesDetailView(localItem: familyListItems[1])) { FamilyExercisesListItem(localItem: familyListItems[1])
                             }
-                            NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { FamilyExercisesListItem(localItem: familyListItems[2])
+                            NavigationLink(destination: FamilyExercisesDetailView(localItem: familyListItems[2])) { FamilyExercisesListItem(localItem: familyListItems[2])
                             }
-                            NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { FamilyExercisesListItem(localItem: familyListItems[3])
+                            NavigationLink(destination: FamilyExercisesDetailView(localItem: familyListItems[3])) { FamilyExercisesListItem(localItem: familyListItems[3])
                             }
-                            NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { FamilyExercisesListItem(localItem: familyListItems[4])
+                            NavigationLink(destination: FamilyExercisesDetailView(localItem: familyListItems[4])) { FamilyExercisesListItem(localItem: familyListItems[4])
+                            }
+                            NavigationLink(destination: FamilyExercisesDetailView(localItem: familyListItems[5])) { FamilyExercisesListItem(localItem: familyListItems[5])
+                            }
+                            NavigationLink(destination: FamilyExercisesDetailView(localItem: familyListItems[6])) { FamilyExercisesListItem(localItem: familyListItems[6])
                             }
                         }
                         
                         VStack {
-                            NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { FamilyExercisesListItem(localItem: familyListItems[5])
-                            }
-                            NavigationLink(destination: IntroConceptsDetailView(item: introConceptsItems[0])) { FamilyExercisesListItem(localItem: familyListItems[6])
-                            }
+                            
                         }
                         Spacer()
                     }.ignoresSafeArea(.all)
+                    
                 }
                 .frame(width: UIScreen.screenWidth-20, height: UIScreen.screenHeight-50, alignment: .center)
                 .ignoresSafeArea(.all)
-            }.ignoresSafeArea(.all)
-                
-            
+            }
+            .ignoresSafeArea(.all)
         })
+        .accentColor(.black)
     }
 }
 

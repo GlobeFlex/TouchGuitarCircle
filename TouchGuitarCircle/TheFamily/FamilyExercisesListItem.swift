@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct FamilyExercisesListItem: View {
-    var item: IntroListItem
-    init(localItem: IntroListItem) {
+    var item: FamilyListItem
+    init(localItem: FamilyListItem) {
         item = localItem
     }
     
@@ -54,6 +54,6 @@ struct FamilyExercisesListItem: View {
 
 struct FamilyExercisesListItem_Previews: PreviewProvider {
     static var previews: some View {
-        FamilyExercisesListItem(localItem: IntroListItem(title: "The Son Exercise", detail: "", sName: "person", iName: nil))
+        FamilyExercisesListItem(localItem: FamilyListItem(title: "Son", detail: "", sName: "person", iName: nil, vName: nil))
     }
 }
